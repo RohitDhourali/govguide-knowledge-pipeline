@@ -22,9 +22,9 @@ class KnowledgeObject:
     Save knowledge objects as JSON.
     """
 
-    data = [obj.to_dict() for obj in objects]
+     data = [obj.to_dict() for obj in objects]
 
-    with open(output_file, "w", encoding="utf-8") as file:
+     with open(output_file, "w", encoding="utf-8") as file:
         json.dump(
             data,
             file,

@@ -1,8 +1,8 @@
 from preprocessing import *
 
-INPUT_FILE = "data/raw/company_registration.txt"
+INPUT_FILE = "extracted_text/Chapter_0.txt"
 
-OUTPUT_FILE = "output/company_registration_clean.txt"
+OUTPUT_FILE = "output/Chapter_0_clean.txt"
 
 
 text = load_text(INPUT_FILE)

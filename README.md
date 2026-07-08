@@ -13,6 +13,9 @@ Project Structure
 
 code/
 data/
+
+knowledge_objects/
+
 output/
 
 Requirements
@@ -33,4 +36,4 @@ Future Work
 - Automatic parser
 - Semantic chunking
 - BGE-M3 embeddings
-- Qdrant indexing
+
